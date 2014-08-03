@@ -1,1 +1,36 @@
-Hi!
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll"><%= link_to "Hot", root_path %></li>
+                <li class="page-scroll"><%= link_to "Trending", "home#trending" %></li>
+            </ul>
+        </div>
+            <!-- /.navbar-collapse -->
+    </div>
+        <!-- /.container -->
+</nav>
+
+<section class="blog">
+    <div class="blog-intro-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="blog-heading">9 Gag Viewer.</h1>
+                  <!-- <p class="blog-intro-text">Just my thoughts and ramblings.</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
