@@ -153,6 +153,7 @@ a:hover, a:visited, a:link, a:active
 .intro-body {
     display: table-cell;
     vertical-align: middle;
+    color: white;
 }
 
 
