@@ -28,7 +28,6 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="heading">9 Gag Viewer.</h1>
-                  <!-- <p class="blog-intro-text">Just my thoughts and ramblings.</p> -->
                 </div>
             </div>
         </div>
@@ -40,6 +39,7 @@
     <div class="row" ng-repeat="hot in data.data">
       <h2>{{ hot.caption }}</h2>
       <p>{{ hot.link }}</p>
+      <img src="{{hot.images.large}}">
     </div>
   </div>
 </div>  
