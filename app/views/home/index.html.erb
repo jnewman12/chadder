@@ -35,12 +35,13 @@
 </section>
 
 <div ng-controller="HotCtrl">
-  <div class="container" id="test">
+  <div class="container-fluid" id="test">
     <div class="row text-center" ng-repeat="hot in data.data">
-      <h2>{{ hot.caption }}</h2>
-      <img src="{{hot.images.large}}">
+      <h3>{{ hot.caption }}</h3>
+      <img class="image-responsive" src="{{hot.images.normal}}" alt="Chadder: 9gag Viewer">
       <a ng-href="{{hot.link}}" target="_blank"><p>View Comments</p></a>
     </div>
+    <br/>
   </div>
 </div>  
 
