@@ -1,4 +1,4 @@
 chadder
 =======
 
-Rails + Angular + PubNub messaging
+Rails + Angular 9gag Viewer.
