@@ -36,13 +36,15 @@
 
 <div ng-controller="HotCtrl">
   <div class="container" id="test">
-    <div class="row" ng-repeat="hot in data.data">
+    <div class="row text-center" ng-repeat="hot in data.data">
       <h2>{{ hot.caption }}</h2>
-      <p>{{ hot.link }}</p>
       <img src="{{hot.images.large}}">
+      <a ng-href="{{hot.link}}" target="_blank"><p>View Comments</p></a>
     </div>
   </div>
 </div>  
+
+<a id="link-3" ng-href="/{{'123'}}">link 3</a>
 
 
 
