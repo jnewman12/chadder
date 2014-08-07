@@ -25,7 +25,7 @@
 <section class="intro">
     <div class="intro-body">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="heading">9 Gag Viewer.</h1>
                 </div>
@@ -39,7 +39,10 @@
     <div class="row text-center" ng-repeat="trending in data.data">
       <h3>{{ trending.caption }}</h3>
       <img class="image-responsive" src="{{trending.images.normal}}" alt="Chadder: 9gag Viewer">
-      <a ng-href="{{trending.link}}" target="_blank"><p>View Comments</p></a>
+      <span><a ng-href="{{trending.link}}" target="_blank"><p>View Comments</p></a></span>
+      <span><h5>Votes: {{trending.votes.count}}</h5></span>
+      <hr class="colored">
+      <br/>
     </div>
     <br/>
   </div>

@@ -14,7 +14,7 @@ html {
 }
 
 /* Over-riding bootstrap */
-.row {
+.container.row {
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -158,4 +158,40 @@ a:hover, a:visited, a:link, a:active
 
 #test {
 	color: black;
+}
+
+/* all this code for a fucking line...*/
+hr {
+    height: 2px;
+    margin: 15px auto;
+    max-width: 100px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+hr.left {
+    margin: 15px auto 15px 0;
+}
+
+hr.right {
+    margin: 15px 0 15px auto;
+}
+
+hr.colored {
+    border-color: #7fbbda;
+}
+
+@media(min-width:768px) {
+    hr {
+        margin: 20px auto;
+        max-width: 200px;
+    }
+
+    hr.left {
+        margin: 20px auto 20px 0;
+    }
+
+    hr.right {
+        margin: 20px 0 20px auto;
+    }
 }
