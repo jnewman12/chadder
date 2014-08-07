@@ -3,7 +3,7 @@ chadder
 
 Rails + Angular 9gag Viewer.
 
-Site is currently [live](chadder.herokuapp.com).
+Site is currently [live](http://chadder.herokuapp.com).
 
 
 Change Log & Fixes
