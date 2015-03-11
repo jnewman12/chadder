@@ -4,8 +4,8 @@ development:
  database: chadder_dev
  host: localhost
  pool: 5
- username: jamesnewman
- password: password
+ username: ENV['DB_USERNAME']
+ password: ENV['DB_PASS']
 
 test:
  adapter: postgresql
@@ -13,5 +13,5 @@ test:
  database: chadder_test
  host: localhost
  pool: 5
- username: jamesnewman
- password: password
+ username: ENV['DB_USERNAME']
+ password: ENV['DB_PASS']
